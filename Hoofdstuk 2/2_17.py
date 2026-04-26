@@ -4,6 +4,12 @@ matrix = np.array([[1, 5, 6],
                    [4, 7, 2],
                    [3, 1, 9]])
 
+# Aantal rijen matrix
+print(np.size(matrix, 0))   # 3
+
+# Aantal kolommen matrix
+print(np.size(matrix, 1))   # 3
+
 # maximum van de volledige array
 print(matrix.max())          # 9
 
